@@ -1,8 +1,11 @@
+body {
+  background-color: #87CEEB;
+}
+
 #Danny {
-  background-image: url("../file/background.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #List {
