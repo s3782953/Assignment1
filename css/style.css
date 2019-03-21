@@ -1,0 +1,13 @@
+#Danny {
+  background-image: url("../file/background.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#List {
+  text-align: left;
+}
+#Bist {
+  text-align: right;
+}
