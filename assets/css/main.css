@@ -1,4 +1,4 @@
-/*
+row/*
  * Author: Carlos Alvarez
  * URL: http://alvarez.is
  *
@@ -31,6 +31,11 @@ h1 {
 	font-size: 35px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+h4 {
+  margin-bottom: 0px;
+  color: #4D4D4D
 }
 
 
@@ -82,7 +87,6 @@ a:after {
     margin: 1em 0;
     padding: 0;
 }
-
 
 .navbar {
 	text-transform: uppercase;
@@ -138,6 +142,14 @@ a:after {
 	padding-bottom: 50px;
 }
 
+.col-lg-6.col-lg-offset-3.centered hr{
+  margin-bottom: 50px;
+}
+
+.col-lg-6.col-lg-offset-3.centered h4{
+  margin-bottom: 30px;
+}
+
 
 /* +++++ WRAP SECTIONS +++++ */
 
@@ -152,6 +164,7 @@ a:after {
 	background-color: #2f2f2f;
 	padding-top: 50px;
 	padding-bottom: 50px;
+  align-items: right;
 }
 
 #footer p {
